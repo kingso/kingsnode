@@ -70,7 +70,7 @@ export default function Home() {
             >
               Upstatement
             </a>
-            . In my free time I've also released an{" "}
+            . In my free time I&#39;ve also released an{" "}
             <a
               className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
               href="https://www.newline.co/courses/build-a-spotify-connected-app"
@@ -83,9 +83,9 @@ export default function Home() {
             Spotify API.
           </p>
           <p>
-            When I’m not at the computer, I&#39;m usually rock climbing, hanging
-            out with my wife and two cats, or running around Hyrule searching
-            for{" "}
+            When I&#39;m not at the computer, I&#39;m usually rock climbing,
+            hanging out with my wife and two cats, or running around Hyrule
+            searching for{" "}
             <span className="group/korok inline-flex lg:cursor-[url('/images/koroks/Elma.png'),_pointer] lg:font-medium lg:text-slate-200">
               <span className="sr-only">Korok seeds</span>
               <span
@@ -196,22 +196,13 @@ export default function Home() {
                           <span className="inline-block">
                             Upstatement
                             <SVG
-                              height={20}
-                              alt="Boosh"
-                              viewBox="0 0 20 20"
                               class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
                               width={20}
-                              content="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
-                            />
-                            {/* <svg
-                              xmlns="http://www.w3.org/2000/svg"
+                              height={20}
                               viewBox="0 0 20 20"
-                              fill="currentColor"
-                              className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"
-                              aria-hidden="true"
-                            >
-                              <path d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"></path>
-                            </svg> */}
+                              content="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+                              alt="Boosh"
+                            />
                           </span>
                         </span>
                       </a>
