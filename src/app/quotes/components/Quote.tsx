@@ -1,19 +1,5 @@
 "use client"
 
-import { Poppins, Roboto } from "next/font/google"
-
-const roboto = Roboto({
-  subsets: ["latin"],
-  display: "swap",
-  weight: "400",
-})
-
-const poppins = Poppins({
-  subsets: ["latin"],
-  display: "swap",
-  weight: "400",
-})
-
 import { useRouter } from "next/navigation"
 import { useState } from "react"
 
@@ -40,19 +26,17 @@ export default function Quote(randomQuote: Quote) {
           Refresh Quote
         </button>
 
-        <p className={`text-2xl text-center mt-4 ${poppins.className}`}>
+        <p className={`text-2xl text-center mt-4`}>
           Author: {randomQuote.author}
         </p>
 
-        <p className={`text-2xl text-center mt-4 ${poppins.className}`}>
+        <p className={`text-2xl text-center mt-4`}>
           Category: {randomQuote.category}
         </p>
       </div>
 
       <div className="grow mt-24">
-        <p
-          className={`text-5xl text-center max-w-3xl leading-normal ${roboto.className}`}
-        >
+        <p className={`text-5xl text-center max-w-3xl leading-normal`}>
           {randomQuote.quote}
         </p>
       </div>
