@@ -1,0 +1,9 @@
+@hostname = http://localhost:3000
+
+### Get API version
+GET {{hostname}}/api
+
+### Get All Quotes
+GET {{hostname}}/api/quotes
+
+

@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
 import Image from "next/image"
+import ParticleContainer from "./components/ParticleContainer"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -193,6 +194,7 @@ export default function RootLayout({
               </header>
               <main id="content" className="pt-24 lg:w-1/2 lg:py-24">
                 {children}
+                <ParticleContainer />
               </main>
             </div>
           </div>
