@@ -25,7 +25,7 @@ export default function Home() {
           </p>
           <p className="mb-4">
             Currently, I&#39;ve specialised in Dynamics 365 and related systems,
-            supporintg multi-national clients with customisations for
+            supporting multi-national clients with customisations for
             <Link
               href="https://www.synchronicity-systems.com/"
               className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
@@ -35,22 +35,10 @@ export default function Home() {
               {" "}
               Synchronicity Systems
             </Link>
-            . In my free time I&#39;ve also released an{" "}
-            <Link
-              className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
-              href="https://www.newline.co/courses/build-a-spotify-connected-app"
-              target="_blank"
-              rel="noreferrer"
-            >
-              online video course
-            </Link>{" "}
-            that covers everything you need to know to build a web app with the
-            Spotify API.
           </p>
           <p>
-            When I&#39;m not at the computer, I&#39;m usually rock climbing,
-            hanging out with my wife and two cats, or running around Hyrule
-            searching for.
+            When I&#39;m not at the computer, I&#39;m usually gaming or watching
+            a movie.
           </p>
         </div>
       </SectionContent>
