@@ -57,8 +57,8 @@ export default function ExperienceList() {
         url="https://www.solon.com/"
         title={["Sales and Support Manager"]}
         company="Solon Systems Development Ltd"
-        responsibility="Stuff"
-        tech={["Azure", "VMware", "Excel", "CSS"]}
+        responsibility="Implementing end-to-end solutions for clients from architecting solutions to BAU support"
+        tech={["Support", "Telecoms", "Networking", "Web Design & Development"]}
       />
       <ExperienceItem
         date="2000 - 2001"
