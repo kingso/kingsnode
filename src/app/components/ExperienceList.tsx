@@ -63,10 +63,10 @@ export default function ExperienceList() {
       <ExperienceItem
         date="2000 - 2001"
         url="https://www.greensgroup.co.uk/"
-        title={["Sales and Support Manager"]}
-        company="Solon Systems Development Ltd"
-        responsibility="Stuff"
-        tech={["Azure", "VMware", "Excel", "CSS"]}
+        title={["IT Manager"]}
+        company="Greens Group Ltd"
+        responsibility="Management of all IT Systems over 5 sites with 70+ Users • Server and Desktop Systems Administration"
+        tech={["Support", "Telecoms", "Networking", "Web Design & Development"]}
       />
       <ExperienceItem
         date="Nov 1998 - Nov 2000"
@@ -74,7 +74,7 @@ export default function ExperienceList() {
         title={["Computer Technician"]}
         company="Solon Systems Development Ltd"
         responsibility=""
-        tech={["Azure", "VMware", "Excel", "CSS"]}
+        tech={["Sales", "System Building", "Support", "Networking"]}
       />
       <ExperienceItem
         date="Sep 1997 - Oct 1998"
